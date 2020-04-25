@@ -18,7 +18,7 @@ spring:
 api:
   limit:
     login:
-      attempt: 10
+      attempt: 5
       timeout:
         lock: 3
     resources:
